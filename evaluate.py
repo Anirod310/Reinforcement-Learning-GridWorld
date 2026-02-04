@@ -12,6 +12,6 @@ def main():
     actions_loose = ['R', 'R', 'D', 'D', 'D', 'R', 'R', 'R', 'D', 'D', 'D', 'D']
     actions_random = np.random.choice(['U', 'D', 'L', 'R'], size=50).tolist()
 
-    animate_actions(env, actions_win)
+    animate_actions(env, actions_random)
 
 main()
