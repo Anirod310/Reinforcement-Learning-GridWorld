@@ -34,8 +34,9 @@ GAMMA = 0.99 #discount factor
 
 EPSILON_START = 1.0 #exploration rate -> starting epsilon : explores a lot
 EPSILON_END = 0.05 #min epsilon
-EPSILON_STEP = 0.9995 #multiply epsilon by this each epsilon to apply epsilon decay and to avoid being too greedy
+EPSILON_DECAY = 0.9995 #multiply epsilon by this each epsilon to apply epsilon decay and to avoid being too greedy
 
 EPISODES_TRAIN = 100000 #training episodes
-MAX_STEPs = 200 #to avoid infinite loop
-SEED = 0 #reproducibility seed
+EPISODES_EVAL = 100000 #evaluation episodes
+MAX_STEPS = 200 #to avoid infinite loop
+SEED = 1 #reproducibility seed
